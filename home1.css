@@ -1,0 +1,196 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background: #f2ecf3;
+    margin:0;
+}
+
+.top {
+    width: 99.5%;
+    height: 110px;
+    background: #cc00ff;
+    box-shadow:
+        /* logo shadow */
+        0px 0px 2px white,
+        /*bottom right */
+        8px 8px 15px white,
+        /* top left */
+        -8px -8px 15px #ffffff;
+    margin-left: 5px;
+    border: 10px;
+    position: fixed;
+    
+}
+
+.logo {
+    background: url("logo-food.jpg");
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-left: 30px;
+    transform: translateY(5px);
+    box-shadow:
+        /* logo shadow */
+        0px 0px 2px #5f5f5f,
+        /* offset */
+        inset 0px 0px 0px 5px #9900ff;
+}
+
+.title {
+    text-align: center;
+    font-size: 34px;
+    padding-top: 24px;
+    letter-spacing: 2.5px;
+    color: white;
+    transform: translateY(-87px);
+    padding-right: 537px;
+    padding-left: 102px;
+    font-family: math;
+}
+
+.nlink {
+    margin-left: 60vmax;
+    transform: translateY(-113px);
+
+
+
+}
+
+li {
+    list-style: none;
+    display: block;
+    float: left;
+    height: 10px;
+    position: relative;
+    
+}
+
+li a {
+    list-style: none;
+    display: block;
+    float: left;
+    height: 15px;
+    position: relative;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+
+ul {
+    background: #f2f5f6;
+    padding: 10px;
+    border-top: 1px solid #00ccff;;
+    border-bottom: 1px solid #00d9ff;
+    border-right: 1px solid #00ccff;
+    border-left: 1px solid #00b7ff;
+    border-radius: 3px 3px;
+    /* box-shadow: 2px 2px 3px #ECECEC;
+    -webkit-box-shadow: 2px 2px 3px #ECECEC;
+    -moz-box-shadow: 2px 2px 3px #ECECEC; */
+    width: 90px;
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    
+}
+
+.login{
+    width: 100%px;
+    overflow: hidden;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: -9px;
+    border-radius: 2px 3px 2px 3px;   
+    height: 60px;
+}
+
+
+.login:hover{
+    color: darkblue;
+}
+
+
+ul li {
+    border-right: none;
+    border-bottom: 1px solid #DDDDDD;
+    padding-top: 10px;
+    width: 90px;
+    height: 40px;
+    border-right: none;
+    text-decoration: none;
+    color: #6791AD;
+    text-shadow: 1px 1px 1px #FFF;
+    border-bottom: 1px solid #FFFFFF;
+    display: block;
+    visibility: visible;
+}
+
+ul li:hover {
+    background: #DFEEF0;
+}
+
+.a1{
+    width: 100%px;
+    overflow: hidden;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: -9px;
+    border-radius: 2px 3px 2px 3px;
+
+}
+
+.a1:hover {
+    border:2px; 
+    background-color: white;
+    border-radius: 30px;
+    color: darkblue;
+}
+
+
+
+li:hover>ul {
+    display: block;
+    visibility: visible;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li:last-child a {
+    border-bottom: none;
+}
+
+
+
+/* .left {
+    background: #ffbb00;
+    width: 40%;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    border-radius: 0px 1px 2px 5px;
+    justify-content: space-between;
+    box-shadow: 0 0 2px 1px #1eff0085;
+}
+
+.left .Text {
+    font-size: 50px;
+    text-align: center;
+} */
+
+
